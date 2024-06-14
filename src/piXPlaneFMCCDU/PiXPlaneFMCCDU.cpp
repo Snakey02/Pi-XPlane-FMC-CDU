@@ -49,6 +49,7 @@ int main(int argc, char * argv[]) {
 	// initialize
 	FMCManager::getInstance();
 	KeypadScanner::getInstance()->launchThread();
+	RotaryEncScanner::getInstance()->launchThread();
 
 	// main SDL loop
 	Screen::getInstance()->mainLoop();
