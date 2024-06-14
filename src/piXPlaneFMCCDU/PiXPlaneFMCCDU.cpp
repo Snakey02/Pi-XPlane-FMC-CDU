@@ -30,6 +30,7 @@
 
 #include "Screen.h"
 #include "KeypadScanner.h"
+#include "RotaryEncScanner.h"
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
