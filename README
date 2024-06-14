@@ -8,11 +8,15 @@ on my blog here: http://blog.shahada.abubakar.net/tag/737fmccdu.
 
 
 BUILDING FROM SOURCE
-- I suggest just using the prebuilt packages (see below).
-- If you really want to build from source, hunt down the dependencies, then do a "make" followed by "sudo make install"
+1. Install Dependencies:
+   - sudo apt-get install doxygen graphviz libsdl2-2.0-0 libsdl2-dev libsdl2-ttf-dev
+   - WiringPi: 	sudo dpkg -i wiringpi-2.61-1-armhf.deb
+   - libXPlane-ExtPlane-Client:	git clone https://github.com/Snakey02/libXPlane-ExtPlane-Client.git -> cd libXPlane-ExtPlane-Client/ -> make -> sudo make install
+   - libXPlane-UDP-Client:	git clone https://github.com/Snakey02/libXPlane-UDP-Client.git -> cd libXPlane-UDP-Client/ -> make -> sudo make install
+2. git clone ... -> cd ... -> make -> sudo make install
  
 
-PREBUILT PACKAGE QUICK INSTALLATION
+PREBUILT PACKAGE QUICK INSTALLATION - DEPRECATED!
 
 Prebuilt .deb binaries are available for raspbian "Stretch". 
 See http://blog.shahada.abubakar.net/post/installing-pixplanefmccdu-software for more details.
